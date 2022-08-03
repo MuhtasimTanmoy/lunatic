@@ -245,7 +245,7 @@ pub struct NativeProcess {
 ///
 /// ## Example:
 ///
-/// ```no_run
+/// ```ignore
 /// let _proc = lunatic_runtime::spawn(|_this, mailbox| async move {
 ///     // Wait on a message with the tag `27`.
 ///     mailbox.pop(Some(&[27])).await;

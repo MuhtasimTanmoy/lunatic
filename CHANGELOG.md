@@ -1,6 +1,6 @@
 # Lunatic Changelog
 
-## v0.9.0
+## v0.9.2
 
 Released 2022-01-20.
 

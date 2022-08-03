@@ -1,6 +1,6 @@
 [package]
 name = "lunatic-runtime"
-version = "0.9.1"
+version = "0.9.2"
 authors = ["Bernard Kolobara <bernard@lunatic.solutions>"]
 edition = "2018"
 description = "An actor platform built on WebAssembly"
@@ -25,9 +25,9 @@ clap = { version = "^3.0", features = ["cargo"] }
 lazy_static = "^1.4"
 tokio = { version = "^1.14", features = ["macros"] }
 async-std = { version = "^1.0", features = ["attributes", "unstable"] }
-wasmtime = "^0.36"
-wasmtime-wasi = "^0.36"
-wasi-common = "^0.36"
+wasmtime = "^0.39"
+wasmtime-wasi = "^0.39"
+wasi-common = "^0.39"
 wasmparser = "^0.81"
 wasm-encoder = "^0.8"
 env_logger = "^0.9"
